@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'front_end';
+ 
+
+constructor(private router:Router){
+
+}
+
+goToHomePage(){
+  this.router.navigate(['/home']);
+}
+
+goToAboutPage(){
+  this.router.navigate(['/about']);
+}
 }

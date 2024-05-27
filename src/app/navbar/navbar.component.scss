@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background-color: black;
+    height: 470px;
+    display: flex;
+    width: 100px;
+    border-radius: 12px;
+}
+nav ul {
+    border-radius: 12px;
+    list-style: none;
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+nav ul li {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+ion-icon {
+    color: white;
+    font-size: 35px;
+}

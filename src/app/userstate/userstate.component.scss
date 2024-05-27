@@ -1,0 +1,25 @@
+.user{
+
+    width: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 0px;
+    border: 1px solid;
+    border-radius: 12px;
+}
+.user-icon {
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    left: 20px;
+    font-size: 40px;
+}
+
+.logout-icon {
+ 
+    position: relative;
+    right: 20px;
+    font-size: 40px; 
+}

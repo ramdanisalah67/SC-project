@@ -1,0 +1,6 @@
+public getPharmacie(userID) {
+
+    pharmacieId = select pharmacieId from pharmacien where id = userID ;
+
+    pharmacie  = select * from pharmacien where id = pharmacieId ;
+}
