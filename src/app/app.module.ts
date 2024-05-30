@@ -10,6 +10,10 @@ import { IonicModule } from '@ionic/angular';
 import { LinksComponent } from './links/links.component';
 import { LogoComponent } from './logo/logo.component';
 import { UserstateComponent } from './userstate/userstate.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { AddClientComponent } from './add-client/add-client.component';
+import { AllClientComponent } from './all-client/all-client.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +23,16 @@ import { UserstateComponent } from './userstate/userstate.component';
     NavbarComponent,
     LinksComponent,
     LogoComponent,
-    UserstateComponent
+    UserstateComponent,
+    AddClientComponent,
+    AllClientComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    IonicModule.forRoot({})
+    IonicModule.forRoot({}),
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

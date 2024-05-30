@@ -32,10 +32,22 @@
 
 .parent {
     position: relative;
-    bottom: 490px;
+    bottom: 450px;
     left: 50px;
     width: 79%;
-    background-color: bisque;
+    background-color: rgb(236, 228, 218);
     margin: auto;
     height: 700px;
+    border-radius: 25px;
+}
+
+.parent::before {
+    content: '';
+    width: 500px;
+    height: 1000px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(116, 116, 188);
+    transform: rotate(45deg);
+    bottom: 200px;
 }

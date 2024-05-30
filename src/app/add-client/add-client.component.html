@@ -1,0 +1,24 @@
+
+<div class="data">
+  <div class="image">
+    <img src="../../assets/client-1295901_1920.png" alt="">
+  </div>
+ <div class="info">
+  <p>name</p>
+  <input type="text" name="name" [(ngModel)]="myClient.name">
+  
+  <p>F.Juridique</p>
+  <input type="text" name="Juridique" [(ngModel)]="myClient.formeJuridique">
+  <p>immatriculation</p>
+  <input type="number" name="immatriculation" [(ngModel)]="myClient.immatriculation">
+  
+  <p>marchedeCotation</p>
+  <input type="text" name="marchedeCotation" [(ngModel)]="myClient.marchedeCotation">
+  
+  
+  <p>Contact</p>
+  <input type="text" name="Contact" [(ngModel)]="myClient.contacts">
+  <br><br>
+  <button (click)="saveClient()">Ajouter</button>
+ </div>
+</div>

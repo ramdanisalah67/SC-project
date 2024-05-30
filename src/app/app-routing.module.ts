@@ -7,6 +7,8 @@ import { LinksComponent } from './links/links.component';
 import { UserstateComponent } from './userstate/userstate.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import { ChoiceOperationComponent } from './choice-operation/choice-operation.component';
+import { AddClientComponent } from './add-client/add-client.component';
+import { AllClientComponent } from './all-client/all-client.component';
 
 const routes: Routes = [
   {path:'home',component:HomeComponent},
@@ -15,7 +17,10 @@ const routes: Routes = [
   {path:'links',component:LinksComponent},
   {path:'user',component:UserstateComponent},
   {path:'statistics',component:StatisticsComponent},
-  {path:'choice_operations',component:ChoiceOperationComponent}
+  {path:'choice_operations',component:ChoiceOperationComponent},
+  {path:'addClient',component:AddClientComponent},
+  {path:'allClient',component:AllClientComponent}
+
 
 
 ];
