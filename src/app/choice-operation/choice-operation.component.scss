@@ -1,20 +1,52 @@
 
 
+* {
+    padding: 0;
+    margin: 0;
+}
+.opeartions
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    padding: 25px;
+}
+.image {
+    z-index: 1;
+    margin-top: 30px;
+    
+}
+img {
+    border: 5px solid white;
+    border-radius: 100%;
+}
+.content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
 .card {
     width: 300px;
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+
+}
+
+.card div {
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+}
+ion-icon {
+    font-size: 55px;
 }
 
 
-.card .image {
-    background-image: url('../../assets/icons8-client-40.png');
-    background-size: 200px 200px;
-    width: 200px ;
-    height: 200px;
-}
-
-
-.opeartions {
-    margin: auto;
-    
+.content .card:hover{
+    background-color: rgba(199, 199, 165, 0.815);
+    cursor: pointer;
 }

@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { AddClientComponent } from './add-client/add-client.component';
 import { AllClientComponent } from './all-client/all-client.component';
+import { ChoiceOperationComponent } from './choice-operation/choice-operation.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AllClientComponent } from './all-client/all-client.component';
     LogoComponent,
     UserstateComponent,
     AddClientComponent,
-    AllClientComponent
+    AllClientComponent,
+    ChoiceOperationComponent
   ],
   imports: [
     BrowserModule,
